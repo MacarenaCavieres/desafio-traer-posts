@@ -16,7 +16,7 @@ btnTraerPost.addEventListener("click", () => {
                 li.style.fontWeight = "bold";
             });
         } catch (err) {
-            throw err;
+            console.log(err);
         }
     };
 
